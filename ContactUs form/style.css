@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background color */
+    margin: 0;
+    padding: 20px;
+}
+
+.contact-form-container {
+    max-width: 600px; /* Maximum width of the form */
+    margin: auto; /* Center the form */
+    background: white; /* White background for the form */
+    padding: 20px; /* Padding around the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+.form-title {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below title */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.form-label {
+    display: block; /* Label takes full width */
+    margin-bottom: 5px; /* Space below label */
+}
+
+.form-input, .form-textarea {
+    width: 100%; /* Full width input and textarea */
+    padding: 10px; /* Padding inside input and textarea */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.error-message {
+    color: red; /* Red color for error messages */
+    font-size: 0.9em; /* Slightly smaller font size */
+    margin-top: 5px; /* Space above error message */
+}
+
+.submit-button {
+    width: 100%; /* Full width */
+    padding: 10px;
+    font-size: 1.1em;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #45a049; /* Darker green */
+}
